@@ -3,14 +3,7 @@
     "description": "Dummy virtual POS screen integration for some weird testing cases",
     "type": "library",
     "license": "MIT",
-    "keywords": [
-        "dummy pos",
-        "dummy vpos",
-        "fake pos",
-        "fake vpos",
-        "vpos",
-        "pos"
-    ],
+    "keywords": ["dummy pos", "dummy vpos", "fake pos", "fake vpos", "vpos", "pos"],
     "authors": [
         {
             "name": "Yıldıray Eyüp Erdoğan",
@@ -37,7 +30,8 @@
             ],
             "aliases": {
                 "Debugbar": "DummyVpos\\Facade"
-            }
+            },
+            "dont-discover": []
         }
     },
     "autoload": {
@@ -51,6 +45,7 @@
         }
     },
     "config": {
+        "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
     },
