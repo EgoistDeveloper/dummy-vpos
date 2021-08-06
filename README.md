@@ -70,6 +70,7 @@ After reached fake virtual pos screen there are four possibility.
 All cases returns back to callback url (with sended parameters except callback urls) and success and fail code/messages can found be in `dummy-vpos.php` config file.
 
 ## Demo
+[Example Project](https://github.com/EgoistDeveloper/dummy-vpos-example)
 
 ![Demo](demo/demo.gif)
 
