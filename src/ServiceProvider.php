@@ -24,10 +24,6 @@ final class ServiceProvider extends BaseServiceProvider
         $this->publishes([
             __DIR__ . '/../config/dummy-vpos.php' => $this->app->configPath('dummy-vpos.php'),
         ], 'config');
-
-        $this->publishes([
-            __DIR__.'/../public' => public_path('vendor/dummy-vpos'),
-        ], 'dummy-vpos-public');
     }
 
     protected function registerConfig(): void
