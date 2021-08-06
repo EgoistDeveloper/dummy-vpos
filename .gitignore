@@ -8,3 +8,5 @@ vendor/
 *.cache
 *.clover
 *.orig
+
+*.lock
