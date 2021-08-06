@@ -2,7 +2,7 @@
     "name": "egoistdeveloper/dummy-vpos",
     "description": "Dummy virtual POS screen integration for some weird testing cases",
     "type": "library",
-    "license": "MIT_License",
+    "license": "MIT",
     "keywords": [
         "dummy pos",
         "dummy vpos",
