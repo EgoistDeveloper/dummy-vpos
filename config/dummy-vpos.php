@@ -59,7 +59,7 @@ return [
     /**
      * Callback default success message
      */
-    'success_message' => 'Payment recieved.',
+    'success_message' => 'Payment received.',
 
     /**
      * Callback success status key name
